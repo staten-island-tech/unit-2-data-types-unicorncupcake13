@@ -19,7 +19,7 @@ def even_odd():
     else:
         print("odd")
 
-even_odd()
+#even_odd()
 
 def bill():
     bill = int(input ("How much did you pay for the meal?: "))
@@ -36,7 +36,7 @@ def bill():
         total = bill + (bill*.25)
         print(total)
 
-bill()
+#bill()
 
 
 def test():
@@ -46,6 +46,13 @@ def test():
         if num % i == 0:
             factors.add(i)
     print(factors)
-test()
+#test()
 
+def arguments():
+    argument = int(input ("input a number: "))
+    argument = int(input ("input another number: "))
+    factors = set()
+    for i in range 
+    print(factors)
+arguments()
     
