@@ -49,10 +49,17 @@ def test():
 #test()
 
 def arguments():
-    argument = int(input ("input a number: "))
-    argument = int(input ("input another number: "))
+    argument_1= int(input ("input a number: "))
+    argument_2= int(input ("input another number: "))
     factors = set()
-    for i in range 
+    
+
+
+    
     print(factors)
 arguments()
     
+
+    if 1 in argument 1: 
+        print( gcf: 1)
+
