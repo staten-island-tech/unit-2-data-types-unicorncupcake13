@@ -19,7 +19,7 @@ def even_odd():
     else:
         print("odd")
 
-#even_odd()
+even_odd()
 
 def bill():
     bill = int(input ("How much did you pay for the meal?: "))
@@ -36,7 +36,7 @@ def bill():
         total = bill + (bill*.25)
         print(total)
 
-#bill()
+bill()
 
 
 def test():
@@ -46,20 +46,22 @@ def test():
         if num % i == 0:
             factors.add(i)
     print(factors)
-#test()
+test()
 
-def arguments():
-    argument_1= int(input ("input a number: "))
-    argument_2= int(input ("input another number: "))
-    factors = set()
+def gcf(x, y):
+    argument_1 = int(input ("input a number: "))
+    for i in range(1, x + 1):
+        if x % i == 0:
+            factors.add(i)
+    argument_2 = int(input ("input another number to find their gcf: "))
+     for i in range(1, y + 1):
+        if y % i == 0:
+            factors.add(i)
+
+    
+    print(gcf)
+
+
     
 
-
     
-    print(factors)
-arguments()
-    
-
-    if 1 in argument 1: 
-        print( gcf: 1)
-
