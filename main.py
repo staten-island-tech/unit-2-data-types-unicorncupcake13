@@ -53,7 +53,7 @@ y = int(input ("input a second number: "))
 
 def gcf(x, y):
     x = int(input ("input a number: "))
-    y ==int(input ("input a second number: "))
+    y = int(input ("input a second number: "))
 great_common_fac = 1
 for i in range(1, min(x, y + 1)):
     if x % i == 0 and y % i == 0:
