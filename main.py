@@ -40,7 +40,7 @@ def bill():
 
 
 def test():
-    num = input ("input a number you want to factor: "))
+    num = int(input ("input a number you want to factor: "))
     factors = set()
     for i in range(1, num + 1):
         if num % i == 0:
@@ -48,17 +48,17 @@ def test():
     print(factors)
 #test()
 
+x = int(input ("input a number: "))
+y = int(input ("input a second number: "))
+
 def gcf(x, y):
-    argument_1 = int(input ("input a number: "))
-    for i in range(1, x + 1):
-        if x % i == 0:
-            factors.add(i)
-    argument_2 = int(input ("input another number to find their gcf: "))
-    for i in range(1, y + 1):
-        if y % i == 0:
-            factors.add(i)
-    if x = y
-print(gcf)
+    x = int(input ("input a number: "))
+    y ==int(input ("input a second number: "))
+great_common_fac = 1
+for i in range(1, min(x, y + 1)):
+    if x % i == 0 and y % i == 0:
+        great_common_fac = i
+print(f"{great_common_fac} is the greatest common factor" )
 gcf(x,y)
 
 
